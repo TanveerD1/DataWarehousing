@@ -17,8 +17,8 @@ This project builds a mini data warehouse for a fictional retail company to anal
 ## Team Members
 
 - Tanveer Omar (@TanveerD1)
-- Calvin 
-- Samantha
+- Calvin Gacheru 670035 (@Campeon254)
+- Samantha Masake (@SamanthaMasaki)
 -
 -
 
