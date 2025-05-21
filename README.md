@@ -19,7 +19,7 @@ This project builds a mini data warehouse for a fictional retail company to anal
 - Tanveer Omar (@TanveerD1)
 - Calvin Gacheru 670035 (@Campeon254)
 - Samantha Masake (@SamanthaMasaki)
--
+- Arlen Ngahu (@ArlenNgahu)
 -
 
 ## License
