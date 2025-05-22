@@ -6,6 +6,10 @@ This project builds a mini data warehouse for a fictional retail company to anal
 
 -   `full_retail_dw_script.sql`: Complete script for table creation, data loading, and analytical queries.
 -   `*.csv`: Dimension and fact data files.
+- `schema.sql`: Table creation scripts
+- `load_data.sql`: SQL commands to load data from CSVs
+- `queries.sql`: Sample analytical queries
+- `*.csv`: Dimension and fact data
 
 ## How to Use
 
