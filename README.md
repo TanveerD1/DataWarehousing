@@ -59,6 +59,7 @@ Open VS Code, go to the Extensions view (Ctrl+Shift+X or Cmd+Shift+X), and insta
 -   Samantha Masake (@SamanthaMasaki)
 -   Arlen Ngahu (@ArlenNgahu)
 -   PatriciaKiarie (@PatriciaKiarie04)
+-   Susan Otieno 670501 (@suezan884)
 
 ## License
 
