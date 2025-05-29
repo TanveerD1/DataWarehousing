@@ -2,7 +2,7 @@
 # Discussion Questions:
 ### 1. Why use a star schema instead of a normalized schema?
 
-A star schema is chosen for data warehousing primarily for performance and simplicity in analytical querying, as opposed to a highly normalized schema which is optimized for transactional processing (OLTP).
+When building a data warehouse, a star schema is often the better choice because it makes analytics faster and simpler. Normalized schemas work better for transactional systems (like processing orders), but they’re not ideal for reporting and analysis.
 
 Performance: In a star schema, data retrieval for analytical queries often involves fewer joins (typically one join between the fact table and each dimension table). This reduces the complexity of queries and significantly improves query performance, especially for large datasets. Normalized schemas, with their many tables and complex relationships, would require numerous joins, leading to slower query execution for analytical workloads.
 
@@ -14,13 +14,13 @@ ETL Simplicity: While ETL can be complex, loading data into a star schema can so
 
 ### 2. What are the benefits of separating facts from dimensions?
 
-Separating facts from dimensions is a cornerstone of dimensional modeling and offers several significant benefits:
+Separating facts from dimensions is a core idea in dimensional modeling and offers several significant benefits:
 
-Improved Query Performance:
+Improved Query Performance:Separating facts from dimensions makes queries faster because it keeps facts and dimensions in different places.
 
-Reduced Joins: As mentioned above, it minimizes the number of joins required for analytical queries.
+Fewer joins mean queries run faster.
 
-Smaller Fact Tables: Fact tables contain only foreign keys to dimensions and measures. This keeps them narrower and denser, allowing more data to fit into memory and improving scan performance.
+Fact tables stay compact containing only keys and numbers hence they load faster.
 
 Enhanced Understandability and Maintainability:
 
@@ -42,7 +42,7 @@ By centralizing descriptive attributes in dimensions, it's easier to maintain da
 
 This mini data warehouse, even with its simple structure, can support a wide range of critical business decisions for a retail company:
 
-Sales Performance Analysis:
+Sales and Performance Analysis:
 
 Identifying Top/Bottom Performing Products: Which products generate the most revenue or sell the most units overall? (Supported by "Top Products by Quantity Sold" and "Total Revenue by Product Category" queries).
 

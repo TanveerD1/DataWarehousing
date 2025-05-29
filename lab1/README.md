@@ -4,8 +4,8 @@ This project builds a mini data warehouse for a fictional retail company to anal
 
 ## Contents
 
--   `full_retail_dw_script.sql`: Complete script for table creation, data loading, and analytical queries.
--   `*.csv`: Dimension and fact data files.
+- `full_retail_dw_script.sql`: Complete script for table creation, data loading, and analytical queries.
+- `*.csv`: Dimension and fact data files.
 - `schema.sql`: Table creation scripts
 - `load_data.sql`: SQL commands to load data from CSVs
 - `queries.sql`: Sample analytical queries
@@ -58,7 +58,8 @@ Open VS Code, go to the Extensions view (Ctrl+Shift+X or Cmd+Shift+X), and insta
 -   Calvin Gacheru 670035 (@Campeon254)
 -   Samantha Masake (@SamanthaMasaki)
 -   Arlen Ngahu (@ArlenNgahu)
--   PatriciaKiarie (@PatriciaKiarie04)
+-   PatriciaKiarie 669781(@PatriciaKiarie04)
+-   Susan Otieno 670501 (@suezan884)
 
 ## License
 
